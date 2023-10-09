@@ -1,0 +1,244 @@
+@import url('archivo.css');
+@import url('clash-display.css');
+
+
+.sectionOne
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+ 
+}
+
+.hero
+{ display: grid;
+  max-width: 1720px;
+  width: 89.58vw;
+  height: 65vh;
+  flex-grow: 0;
+  border-radius: 16px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 20px 0 rgba(0, 0, 0, 0.04);
+  background-color: #FFFFFF;
+  place-items: center;
+  background-image: url(/Assets/B1.svg) ;
+  background-size: cover;
+  justify-content: center;
+}
+
+.textContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.H1
+{
+  font-family: ClashDisplay-Medium;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-align: left;
+  color: #121220; 
+}
+
+.H2
+{
+  font-family: ClashDisplay-Medium;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.46px;
+  text-align: left;
+  color: #7c7f8c;
+}
+
+.H3
+{
+  font-family: ClashDisplay-Medium;
+  font-size: 72px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.95px;
+  text-align: left;
+  color: #7c7f8c;
+}
+
+
+.sectionOneRow
+{ max-width: 1720px;
+  width: 89.58vw;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0;
+}
+
+.heroTwo
+{
+  max-width: 840px;
+  width: 43.75vw;
+  height: 214px;
+  flex-grow: 0;
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 20px 0 rgba(0, 0, 0, 0.04);
+  background-image: url(/Assets/B2.svg) ;
+  background-size: cover;
+}
+
+.detailsBox
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 16px;
+  
+}
+
+.about
+{
+  flex-grow: 0;
+  font-family: ClashDisplay-Medium;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.introBox
+{
+  flex-grow: 0;
+  font-family: Archivo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color:#D2D4D9;
+}
+
+.heroThree
+{
+  max-width: 840px;
+  width: 43.75%;
+  height: 214px;
+  flex-grow: 0;
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 20px 0 rgba(0, 0, 0, 0.04);
+  background-image: url(/Assets/B3.svg) ;
+  background-size: cover;
+  justify-content: center;
+}
+
+.heroThreeRow
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding:16px 16px;
+}
+
+
+.expBox
+{
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0;
+
+}
+
+.expDeatilsBox
+{
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0;
+
+}
+
+.yrs
+{
+  flex-grow: 0;
+  font-family: ClashDisplay-Medium;
+  font-size: 50px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color:#FFFFFF;
+}
+
+.titleRow
+{ 
+  max-width: 361px;
+  width: 18.80vw;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* gap: 32px; */
+  padding: 0;
+}
+
+.titleRowTwo
+{ 
+  max-width: 120px;
+  width: 6.25vw;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* gap: 32px; */
+  padding: 0;
+}
+
+.T1
+{
+  flex-grow: 0;
+  font-family: Archivo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #FFFFFF;
+}

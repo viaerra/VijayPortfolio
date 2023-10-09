@@ -1,0 +1,15 @@
+@import url('archivo.css');
+@import url('clash-display.css');
+
+
+
+
+.sectionTwo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding-top: 72px;
+}

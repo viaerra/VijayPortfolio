@@ -13,3 +13,49 @@
     gap: 32px;
     padding-top: 72px;
 }
+
+.titleTwo
+{
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+ 
+}
+
+.W1
+{
+    flex-grow: 0;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #505559; 
+}
+
+.projBox
+{ 
+  max-width: 1790px;  
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0;
+}
+
+.soloBox
+{ max-width: 840px;
+  width: 43.75vw;
+  flex-grow: 0;
+  padding: 0 0 20px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}

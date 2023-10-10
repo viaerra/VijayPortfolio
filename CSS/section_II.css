@@ -52,9 +52,9 @@
 }
 
 .soloBox
-{ max-width: 840px;
+{ 
+  max-width: 840px;
   width: 43.75vw;
-  flex-grow: 0;
   padding: 0 0 20px;
   border-radius: 16px;
   border: solid 2px #dbdbdb;
@@ -63,13 +63,15 @@
 
 .imgBox
 {
+    width: 43.75vw;
     height: 46.08vh;
     max-height: 497px;
 }
 
 .projTitleBox
 {
-display: flex;
+  flex-grow: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -79,7 +81,7 @@ display: flex;
 
 .projTitleBar
 {
-    /* flex-grow: 0; */
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -89,8 +91,10 @@ display: flex;
 }
 
 .projTitleRow
-{
-  
+{ 
+  max-width: 776px ;
+  width: 40.416vw;
+  flex-grow: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,4 +135,68 @@ display: flex;
   letter-spacing: 0.14px;
   text-align:center;
   color: #f05656;
+}
+
+.projDetailText
+{
+max-width: 776px;
+color: #505559;
+font-family: Archivo;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+
+.badgePlusButton
+{ 
+  width: 40.416vw;
+  display: flex;
+  max-width: 776px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.badgeRow
+{
+  display: flex;
+  gap: 16px; 
+  align-items: flex-start;
+}
+
+.projBadge
+{
+display: flex;
+padding: 4px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #EAECF2;
+color: #121220;
+font-family: Archivo;
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.14px;
+}
+
+.projDetail
+{
+border: none;
+background-color: transparent;
+display: flex;
+padding: 8px 0px;
+align-items: center;
+gap: 4px;
+
+color: #F05656;
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }

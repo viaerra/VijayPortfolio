@@ -1,0 +1,102 @@
+@import url('archivo.css');
+@import url('clash-display.css');
+
+
+
+.sectionThree
+{
+    max-width: 1790px; 
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    /* position: relative; */
+}
+
+.moreAbout
+{   max-width: 1113px;
+    width: 57.968vw;
+    display: inline-flex;
+    padding: 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    background-image: url(/Assets/aboutBG.svg) ;
+    background-size: cover;
+}
+
+
+.moreTitle
+{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.myDetailOne
+{
+    color: #D2D4D9;
+    font-family: Clash Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169%; /* 81.12px */
+
+
+}
+.myDetailTwo
+{
+
+    color: #F05656;
+    font-family: Clash Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169%;
+
+}
+.myDetailOne
+{
+    color: #D2D4D9;
+    font-family: Clash Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169%; /* 81.12px */
+}
+
+.skillsBox
+{
+    /* position: absolute; */
+    max-width: 567px;
+    width: 29.531vw;
+    height: 100%;
+    border-radius: 16px;
+    vertical-align: middle;
+    background-image: url(/Assets/skillBG.svg) ;
+    background-size: cover;
+}
+
+.skillColoumn
+{
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 32px;
+}
+
+.skillText
+{
+    color: #D2D4D9;
+    font-family: Clash Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169%; /* 81.12px */ 
+}

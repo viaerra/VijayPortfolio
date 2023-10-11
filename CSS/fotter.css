@@ -1,0 +1,77 @@
+
+.customFotter
+{
+   width: 100vw;
+   height: 526px;
+   background-image: url(/Assets/B1.svg) ;
+   background-color: #FFFFFf;
+   background-size: cover;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.fotterColoumn
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 65px;
+}
+
+.linkRow
+{
+    display: flex;
+    max-width:1720px;
+    width: 89.583vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.infoRow
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.infoBox
+{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.infoTitle
+{
+    color: #121220;
+font-family: Clash Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.22px;
+}
+
+.infoText
+{
+    color: #121220;
+    font-family: Clash Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px; 
+}
+
+.profileLinkRow
+{
+    display: flex;
+    max-width: 840px;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}

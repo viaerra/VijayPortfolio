@@ -2,28 +2,34 @@
 @import url('clash-display.css');
 
 
+
 .page
 {
     max-width: 1920px;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content:center;
-    margin: 0px 100px 0px 100px;
+    /* margin: 0px 100px 0px 100px; */
+    margin: auto;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     padding-bottom: 50px;
 }
 
+
 .header
 {
-  max-width: 1920px;
+  max-width: 1720px;
+  width: 89.583vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 48px;
-  padding: 16px 0px;
+  /* margin: 0 0 48px; */
+  padding: 16px 0px 64px 0px;
+  /* margin-left: 5.20vw; */
+
 }
 
 .links
@@ -34,7 +40,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   gap: 64px;
   padding: 0;
 }
@@ -78,7 +84,9 @@
   gap: 10px;
   padding: 8px 24px;
   border-radius: 4px;
-  background-color: #f05656;
+  background: linear-gradient(87deg, #5046CE 0.89%, #882ECE 23.82%, #9708C9 38.78%, #CB5285 79.89%, #F05656 99.17%);
+
+
   border: none;
   font-family: ClashDisplay-Medium;
   font-size: 16px;
@@ -91,3 +99,8 @@
   color: #FFFFFF;
 }
 
+.contact:hover
+{
+  background:  linear-gradient(267deg, #5046CE 0.41%, #882ECE 23.57%, #9708C9 38.67%, #CB5285 80.18%, #F05656 99.65%);
+  transition: 2s;
+}

@@ -68,8 +68,9 @@ padding: 8px 32px;
 align-items: center;
 gap: 4px;
 border-radius: 4px;
-background: #F05656;
+background:linear-gradient(87deg, #5046CE 0.89%, #882ECE 23.82%, #9708C9 38.78%, #CB5285 79.89%, #F05656 99.17%);
 border: none;
+
 
 
 /* text */
@@ -80,6 +81,13 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 
+}
+
+.seeMore:hover{
+  background:  linear-gradient(267deg, #5046CE 0.41%, #882ECE 23.57%, #9708C9 38.67%, #CB5285 80.18%, #F05656 99.65%);
+  transition-timing-function: ease-in-out;
+  transition-delay: 1000ms;
+  transition-duration: 800ms;
 }
 
 .projAndMoreButton

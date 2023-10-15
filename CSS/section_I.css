@@ -98,7 +98,7 @@
   padding: 16px 24px;
   border-radius: 16px;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 20px 0 rgba(0, 0, 0, 0.04);
-  background-image: url(/Assets/B2.svg) ;
+  background-image: url(/Assets/B2.1.svg) ;
   background-size: cover;
 }
 
@@ -150,8 +150,8 @@
   padding: 16px 24px;
   border-radius: 16px;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 20px 0 rgba(0, 0, 0, 0.04);
-  background-image: url(/Assets/B3.svg) ;
-  background-size: cover;
+  background-image: url(/Assets/B3.1.svg) ;
+  background-size:cover;
   justify-content: center;
 }
 

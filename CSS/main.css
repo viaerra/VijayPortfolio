@@ -3,18 +3,34 @@
 
 
 
+.wholePage
+{
+  background: #070D17;
+  
+}
 .page
 {
     max-width: 1920px;
     display: flex;
     align-items: center;
     justify-content:center;
-    /* margin: 0px 100px 0px 100px; */
     margin: auto;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    padding-bottom: 50px;
+
+    /* height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient(151deg, rgba(255, 0, 0, 0.20) -0.97%, rgba(0, 0, 0, 0.00) 26.54%), linear-gradient(185deg, #9360FE -2.29%, #623FC5 2.43%, #5036A1 4.8%, #432F87 7.14%, #322665 13.49%, #1A1A34 19.35%, #121220 26.31%);
+  background: -moz-linear-gradient(151deg, rgba(255, 0, 0, 0.20) -0.97%, rgba(0, 0, 0, 0.00) 26.54%), linear-gradient(185deg, #9360FE -2.29%, #623FC5 2.43%, #5036A1 4.8%, #432F87 7.14%, #322665 13.49%, #1A1A34 19.35%, #121220 26.31%);
+  background: -o-linear-gradient(151deg, rgba(255, 0, 0, 0.20) -0.97%, rgba(0, 0, 0, 0.00) 26.54%), linear-gradient(185deg, #9360FE -2.29%, #623FC5 2.43%, #5036A1 4.8%, #432F87 7.14%, #322665 13.49%, #1A1A34 19.35%, #121220 26.31%);
+  background:  linear-gradient(151deg, rgba(255, 0, 0, 0.20) -0.97%, rgba(0, 0, 0, 0.00) 26.54%), linear-gradient(188deg, #623FC5 -2.66%, #5036A1 -0.11%, #322665 7.35%, #1A1A34 16.9%, #121220 27.2%); */
+
+  
 }
 
 
@@ -50,13 +66,13 @@
     background-color: inherit;
   flex-grow: 0;
   font-family: ClashDisplay-Medium;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-display: swap;
   font-style: normal;
   letter-spacing: 0.2px;
   text-align: left;
-  color: #121220;
+  color: #FFFFFF;
 }
 
 .aboutMe
@@ -65,13 +81,13 @@
   background-color: inherit;
   flex-grow: 0;
   font-family: ClashDisplay-Medium;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-display: swap;
   font-style: normal;
   letter-spacing: 0.2px;
   text-align: left;
-  color: #121220;
+  color: #FFFFFF;
 }
 
 .contact
@@ -89,7 +105,7 @@
 
   border: none;
   font-family: ClashDisplay-Medium;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -102,5 +118,6 @@
 .contact:hover
 {
   background:  linear-gradient(267deg, #5046CE 0.41%, #882ECE 23.57%, #9708C9 38.67%, #CB5285 80.18%, #F05656 99.65%);
-  transition: 2s;
+  box-shadow: 0px 3px 25px 0px rgba(246, 20, 224, 0.45);
+  transition:ease-in-out
 }

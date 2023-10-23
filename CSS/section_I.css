@@ -40,40 +40,43 @@
 .H1
 {
   font-family: ClashDisplay-Medium;
-  font-size: 40px;
+  font-size: 2.6rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.64px;
   text-align: left;
-  color: #121220; 
+  color: #FFFFFF; 
 }
 
 .H2
 {
   font-family: ClashDisplay-Medium;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.46px;
   text-align: left;
-  color: #7c7f8c;
+  color: #FFFFFF;
 }
 
 .H3
 {
   font-family: ClashDisplay-Medium;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.95px;
   text-align: left;
-  color: #7c7f8c;
+  background: linear-gradient(180deg, #FFF 14.53%, #4152E3 90.95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 

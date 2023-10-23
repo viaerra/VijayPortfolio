@@ -1,0 +1,182 @@
+@import url('archivo.css');
+@import url('clash-display.css');
+
+
+
+.sectionFour
+{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+padding-top: 72px;
+padding-bottom: 72px;
+}
+
+.recomenTitle
+{
+color: #FFF;
+font-family: Clash Display;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.56px;
+}
+
+.recomendRow
+{
+display: flex;
+align-items: flex-start;
+gap: 32px;
+}
+
+
+.recomendBoxOne
+{
+display: flex;
+height: 775px;
+padding: 42px 24px 32px 24px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+border-radius: 24px;
+background: linear-gradient(331deg, #000 -3.77%, #0C1535 74.36%, #570795 105.39%);
+}
+
+.recomendBoxTwo
+{
+display: flex;
+height: 775px;
+padding: 42px 24px 32px 24px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+border-radius: 24px;
+background: linear-gradient(158deg, #000 -4.22%, #0C1535 72.13%, #570795 102.45%);
+}
+
+
+.recomendBoxThree
+{
+display: flex;
+min-height: 775px;
+padding: 42px 24px 32px 24px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+border-radius: 24px;
+background: linear-gradient(60deg, #000 0%, #0C1535 73.97%, #570795 103.35%);
+}
+
+
+.icnRecomendBox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.recomendText
+{   
+    max-width: 504px;
+    width: 26.25vw;
+    color: #F8F8F8;
+    text-align: justify;
+    font-family: Archivo;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.providerRow
+{
+padding-top: 24px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 12px;
+}
+
+.avatarBox
+{ 
+    border-radius: 8px;
+    display:flex ;
+    width: 64px;
+    height: 64px;
+    background-color: #D8FFD4 ;
+    justify-content: center;
+    background-image: url(/Assets/avatar_1.png);
+    background-size: 40px 56px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.avatarBoxTwo
+{ 
+    border-radius: 8px;
+    display:flex ;
+    width: 64px;
+    height: 64px;
+    background-color:#E7D4FF ;
+    justify-content: center;
+    background-image: url(/Assets/avatar_1.png);
+    background-size: 40px 56px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.avatarBoxThree
+{ 
+    border-radius: 8px;
+    display:flex ;
+    width: 64px;
+    height: 64px;
+    background-color:#FFF8A4 ;
+    justify-content: center;
+    background-image: url(/Assets/avatar_2.png);
+    background-size: 40px 56px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.avatarProp
+{
+ width: 39.184px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.providerNameCol
+{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.providerName
+{
+    color: #F8F8F8;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+
+.jobTitle
+{
+    color: #F05656;
+font-family: Clash Display;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.18px;
+}
